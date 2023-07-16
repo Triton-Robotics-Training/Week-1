@@ -94,4 +94,4 @@ You can add a potentiometer using the simulator, by clicking Add Component, then
 
 ## Assignment
 
-Using this, have an led flicker, and be on for that percentage of time (Ex: at 0.3 it will be on 30% of the time, etc.).
+Using this, have an led flicker with a period of 2s, and be on for that percentage of time (Ex: at 0.3 it will be on 30% of the time, which is 0.6 seconds).
