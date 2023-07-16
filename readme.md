@@ -73,7 +73,7 @@ output = 1; // setting the output high
 
 ## Assignment
 
-WIth this information, write a simple program in the simulator that controls the LED with the button. the led pin is `LED1` and the button pin is `BUTTON1`. You can play around with this by pressing the button in the simulator.
+WIth this information, write a simple program in the simulator that controls the LED with the button. The led pin is `LED1` and the button pin is `BUTTON1`. You can play around with this by pressing the button in the simulator.
 
 # Exercise 2: Analog Input
 
@@ -86,7 +86,7 @@ double x = anInput;
 double x = anInput.read(); //you can use either of these
 ```
 
-However now x will be a decimal value from 0 to 1.
+However now x will be a decimal (float) value from 0 to 1.
 
 You can add a potentiometer using the simulator, by clicking Add Component, then selecting Potentiometer.
 
