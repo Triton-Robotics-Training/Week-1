@@ -77,7 +77,7 @@ WIth this information, write a simple program in the simulator that controls the
 
 # Exercise 2: Analog Input
 
-Now let's mess around with getting our board to input analog signals. This is basically reading the voltage on a pin relative to ground. The `AnalogIn` has us covered here. `AnalogIn` functions similarly to `DigitalIn` (`AnalogOut` mirrors `DigitalOut` as well)
+Now let's mess around with getting our board to input analog signals. This is basically reading the voltage on a pin relative to ground. The `AnalogIn` has us covered here. `AnalogIn` functions similarly to `DigitalIn` (`AnalogOut` mirrors `DigitalOut` as well).
 
 ```cpp
 AnalogIn anInput(PinName);
@@ -86,12 +86,12 @@ double x = anInput;
 double x = anInput.read(); //you can use either of these
 ```
 
-However now x will be a decimal (float) value from 0 to 1.
+The nucleo board works on 3.3v logic, that is, when reading and analog input it will map (0, 3.3) volts to a (0, 1) `float`.
 
-You can add a potentiometer using the simulator, by clicking Add Component, then selecting Potentiometer.
+You can add a [potentiometer](https://randomnerdtutorials.com/electronics-basics-how-a-potentiometer-works/) using the simulator, by clicking `Add Component`, then selecting Potentiometer.
 
 ![](assets/week1_3.png)
 
 ## Assignment
 
-Using this, have an led flicker with a period of 2s, and be on for that percentage of time (Ex: at 0.3 it will be on 30% of the time, which is 0.6 seconds).
+Using this, have an led flicker with a period of 2s, and be on for that percentage of time (Ex: at 0.3 it will be on 30% of the time, which is 0.6 seconds). `wait_ms(milliseconds)` might come in handy here.
