@@ -94,4 +94,4 @@ You can add a [potentiometer](https://randomnerdtutorials.com/electronics-basics
 
 ## Assignment
 
-Using this, have an led flicker with a period of 2s, and be on for that percentage of time (Ex: at 0.3 it will be on 30% of the time, which is 0.6 seconds). `wait_ms(milliseconds)` might come in handy here. Again, once you're done, put this on gituhub and push.
+Using a potentiometer, have an led flicker with a period of 2s, and be on for that percentage of time (Ex: at 0.3 it will be on 30% of the time, which is 0.6 seconds). `wait_ms(milliseconds)` might come in handy here. Again, once you're done, put this on gituhub and push.
