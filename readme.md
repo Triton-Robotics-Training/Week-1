@@ -1,6 +1,7 @@
 # Signals - Week 1
 
-For all of our activities and code running, we'll be using the [ARM mbed Simulator](http://195.130.59.221/)
+For all of our activities and code running, we'll be using the [ARM mbed Simulator](http://195.130.59.221/).
+Take some time to read over our [Coding Style Guide](https://github.com/Triton-Robotics/TR-mbed/wiki/Very-Short-Coding-Style-Guide)
 
 ## Basic Signals
 
