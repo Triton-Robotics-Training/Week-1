@@ -75,7 +75,7 @@ output = 1; // setting the output high
 
 ## Assignment
 
-WIth this information, write a simple program in the simulator that controls the LED with the button. The led pin is `LED1` and the button pin is `BUTTON1`. You can play around with this by pressing the button in the simulator. Once your code is functional, copy it back into the file on github, and then push.
+WIth this information, write a simple program in the simulator that controls the LED with the button. The led pin is `LED1` and the button pin is `BUTTON1`. Make it such that the LED is on while the button is being pressed. You can play around with this by pressing the button in the simulator. Once your code is functional, copy it back into the file on github, and then push.
 
 # Exercise 2: Analog Input
 
